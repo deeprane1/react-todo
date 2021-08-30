@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pa-1 {
+  padding: 1rem;
+}
+
+.pa-2 {
+  padding: 2rem
+}
+
+.pa-3 {
+  padding: 3rem
+}
+
+.pa-5 {
+  padding: 5rem
+}
+
+.ma-1 {
+  margin: 1rem;
+}
+
+.ma-2 {
+  margin: 2rem
+}
+
+.ma-3 {
+  margin: 3rem
+}
+
+.ma-5 {
+  margin: 5rem
+}
+
+.bold { 
+  font-weight: bold; 
+}
+
+.regular { 
+  font-weight: normal
+}
+
+.italic { 
+  font-style: italic
+}
+
+.ell {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-xs {
+	font-size: 70%;
+}
+
+.text-s {
+	font-size: 85%;
+}
+
+.text-m {
+	font-size: 100%;
+}
+
+.text-l {
+	font-size: 115%;
+}
+
+.text-xl {
+	font-size: 130%;
+}
+
+.text-xxl {
+	font-size: 145%;
+}
